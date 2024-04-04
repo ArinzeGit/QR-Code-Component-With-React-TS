@@ -40,7 +40,7 @@ This is my solution to the [QR code component challenge on Frontend Mentor](http
 
 ### What I learned
 
-I learned that I can create custom font families by downloading and adding font files, then defining font faces in CSS using the '@font-face' rule:
+- I learned that I can create custom font families by downloading and adding font files, then defining font faces in CSS using the '@font-face' rule:
 
 ```css
 @font-face {
@@ -48,8 +48,10 @@ I learned that I can create custom font families by downloading and adding font 
   src: url("../assets/fonts/Outfit-VariableFont_wght.ttf") format("truetype");
 }
 ```
-
-I also got more familiar with Bootstrap, Typescript and React.
+- I learnt that I cannot open my React TypeScript app directly via the HTML file because the browser doesn't have the capability to handle the dynamic execution of TypeScript code or serve other assets.
+  - During development, I need tools like Vite to start a development server that handles dynamic transpiling of TypeScript and JSX to JavaScript, bundling, and serving of my app.
+  - For production, I need to run a build command to generate the production build of the app that includes the necessary JavaScript code bundled by Vite, CSS files, and assets. This build can be opened via its HTML file 
+- I also got more familiar with Bootstrap, Typescript and React.
 
 ### Continued development
 
