@@ -29,16 +29,17 @@ const Card = ({ width, src, title, children }: Props) => {
         className="card-body"
         style={{ fontFamily: "Outfit", textAlign: "center" }}
       >
-        <h5
+        <h1
           className="card-title"
           style={{
+            fontSize: "20px",
             fontWeight: 700,
             color: "hsl(218, 44%, 22%)",
             marginBottom: "15px",
           }}
         >
           {title}
-        </h5>
+        </h1>
         <p
           className="card-text"
           style={{
