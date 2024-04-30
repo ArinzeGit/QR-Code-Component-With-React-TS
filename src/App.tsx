@@ -3,22 +3,20 @@ import Card from "./components/Card";
 import "./App.css";
 const App = () => {
   return (
-    <>
+    <div className="app">
       <main>
-        <div className="container">
-          <div>
-            <Card
-              width="320px"
-              src={qrCodeImage}
-              title="Improve your front-end skills by building projects"
-            >
-              Scan the QR code to visit Frontend Mentor and take your coding
-              skills to the next level
-            </Card>
-          </div>
+        <div>
+          <Card
+            width="320px"
+            src={qrCodeImage}
+            title="Improve your front-end skills by building projects"
+          >
+            Scan the QR code to visit Frontend Mentor and take your coding
+            skills to the next level
+          </Card>
         </div>
       </main>
-      <footer>
+      <footer className="attribution-container">
         <div className="attribution">
           Challenge by{" "}
           <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">
@@ -31,7 +29,7 @@ const App = () => {
           .
         </div>
       </footer>
-    </>
+    </div>
   );
 };
 
