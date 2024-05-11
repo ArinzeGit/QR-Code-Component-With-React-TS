@@ -18,7 +18,8 @@ This is my solution to the ['QR code component' challenge on Frontend Mentor](ht
 
 ### Screenshot
 
-![QR Code Component With React-TS Screenshot](/public/QR%20Code%20Component%20With%20React-TS%20Screenshot.PNG)
+![QR Code Component With React-TS Screenshot1](public/QR%20Code%20Component%20With%20React-TS%20Screenshot1.PNG)
+![QR Code Component With React-TS Screenshot2](public/QR%20Code%20Component%20With%20React-TS%20Screenshot2.PNG)
 
 ### Links
 
@@ -48,9 +49,10 @@ This is my solution to the ['QR code component' challenge on Frontend Mentor](ht
   src: url("../assets/fonts/Outfit-VariableFont_wght.ttf") format("truetype");
 }
 ```
+
 - I learnt that I cannot open my React TypeScript app directly via the HTML file because the browser doesn't have the capability to handle the dynamic execution of TypeScript code or serve other assets.
   - During development, I need tools like Vite to start a development server that handles dynamic transpiling of TypeScript and JSX to JavaScript, bundling, and serving of my app.
-  - For production, I need to run a build command to generate the production build of the app that includes the necessary JavaScript code bundled by Vite, CSS files, and assets. This build can be opened via its HTML file 
+  - For production, I need to run a build command to generate the production build of the app that includes the necessary JavaScript code bundled by Vite, CSS files, and assets. This build can be opened via its HTML file
 - I also got more familiar with Bootstrap, Typescript and React.
 
 ### Continued development
