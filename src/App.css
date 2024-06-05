@@ -5,7 +5,7 @@
   
 main{
   min-height: 100vh; /* 100% of viewport height */
-  padding: 40px;
+  padding: 2.5rem 0;
   display: flex;
   justify-content: center; /* Horizontal centering */
   align-items: center; /* Vertical centering */
@@ -16,7 +16,7 @@ main{
 }
 
 .attribution {
-  font-size: 15px;
+  font-size: .938rem;
   position: absolute;
   bottom: 0.7rem;
   left: 50%;

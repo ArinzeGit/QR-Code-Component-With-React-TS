@@ -2,19 +2,19 @@ import { ReactNode } from "react";
 import "./Card.css";
 
 interface Props {
-  width: string;
+  maxWidth: string;
   src: string;
   title: string;
   children: ReactNode;
 }
 
-const Card = ({ width, src, title, children }: Props) => {
+const Card = ({ maxWidth, src, title, children }: Props) => {
   return (
     <div
       className="card"
       style={{
-        width: width,
-        padding: "16px",
+        width: `min(80%,${maxWidth})`,
+        padding: "1em",
         backgroundColor: "hsl(0, 0%, 100%)",
         borderRadius: "20px",
       }}
@@ -23,7 +23,7 @@ const Card = ({ width, src, title, children }: Props) => {
         src={src}
         className="card-img-top"
         alt="card"
-        style={{ borderRadius: "10px", marginBottom: "15px" }}
+        style={{ borderRadius: "10px", marginBottom: ".938rem" }}
       />
       <div
         className="card-body"
@@ -32,10 +32,10 @@ const Card = ({ width, src, title, children }: Props) => {
         <h1
           className="card-title"
           style={{
-            fontSize: "20px",
+            fontSize: "1.25rem",
             fontWeight: 700,
             color: "hsl(218, 44%, 22%)",
-            marginBottom: "15px",
+            marginBottom: ".938rem",
           }}
         >
           {title}
@@ -43,10 +43,10 @@ const Card = ({ width, src, title, children }: Props) => {
         <p
           className="card-text"
           style={{
-            fontSize: "15px",
+            fontSize: ".938rem",
             fontWeight: 400,
             color: "hsl(220, 15%, 55%)",
-            marginBottom: "10px",
+            marginBottom: ".625rem",
           }}
         >
           {children}

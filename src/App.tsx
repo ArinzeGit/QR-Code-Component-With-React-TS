@@ -5,16 +5,14 @@ const App = () => {
   return (
     <div className="app">
       <main>
-        <div>
-          <Card
-            width="320px"
-            src={qrCodeImage}
-            title="Improve your front-end skills by building projects"
-          >
-            Scan the QR code to visit Frontend Mentor and take your coding
-            skills to the next level
-          </Card>
-        </div>
+        <Card
+          maxWidth="20rem"
+          src={qrCodeImage}
+          title="Improve your front-end skills by building projects"
+        >
+          Scan the QR code to visit Frontend Mentor and take your coding skills
+          to the next level
+        </Card>
       </main>
       <footer className="attribution-container">
         <div className="attribution">
