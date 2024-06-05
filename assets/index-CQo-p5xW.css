@@ -1,4 +1,4 @@
-@charset "UTF-8";@font-face{font-family:Outfit;src:url(/QR-Code-Component-With-React-TS/assets/Outfit-VariableFont_wght-DbMSL6pt.ttf) format("truetype")}.app{min-height:100vh;background-color:#d6e2f0}main{min-height:100vh;padding:40px;display:flex;justify-content:center;align-items:center}.attribution-container{position:relative}.attribution{font-size:15px;position:absolute;bottom:.7rem;left:50%;transform:translate(-50%)}.attribution a{color:#3e52a3}/*!
+@charset "UTF-8";@font-face{font-family:Outfit;src:url(/QR-Code-Component-With-React-TS/assets/Outfit-VariableFont_wght-DbMSL6pt.ttf) format("truetype")}.app{min-height:100vh;background-color:#d6e2f0}main{min-height:100vh;padding:2.5rem 0;display:flex;justify-content:center;align-items:center}.attribution-container{position:relative}.attribution{font-size:.938rem;position:absolute;bottom:.7rem;left:50%;transform:translate(-50%)}.attribution a{color:#3e52a3}/*!
 * Bootstrap  v5.3.3 (https://getbootstrap.com/)
 * Copyright 2011-2024 The Bootstrap Authors
 * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
