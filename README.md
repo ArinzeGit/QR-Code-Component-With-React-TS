@@ -23,8 +23,8 @@ This is my solution to the ['QR code component' challenge on Frontend Mentor](ht
 
 ### Links
 
-- Solution URL: View the GitHub repository [here](https://github.com/ArinzeGit/QR-Code-Component-With-React-TS)
-- Live Site URL: I have hosted the project on GitHub Pages [here](https://arinzegit.github.io/QR-Code-Component-With-React-TS/)
+- [GitHub Repository](https://github.com/ArinzeGit/QR-Code-Component-With-React-TS)
+- [Live Site URL](https://arinzegit.github.io/QR-Code-Component-With-React-TS/)
 
 ## My process
 
