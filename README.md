@@ -1,6 +1,6 @@
 # QR code component with `React-TS`
 
-A simple, responsive QR code component built with React as part of the ['QR code component' challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H). I did this project to practice building a fundamental component using React, focusing on responsive design, clean code and to appreciate React's component-based architecture.
+A simple, responsive QR code component built with React as part of the ['QR code component' Frontend Mentor challenge](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H). I did this project to practice building a fundamental component using React, focusing on responsive design, clean code and to appreciate React's component-based architecture.
 
 ## Table of contents
 
